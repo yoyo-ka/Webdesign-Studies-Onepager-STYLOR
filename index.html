@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>STYLOR &ndash; Farb- und Stilberatung</title>
+    <link rel="icon" type="image/png" href="img/logo_large.png" />
+    <meta
+      name="description"
+      content="Stylor – Farb- und Stilberatung. Ich berate Sie zu allen Fragen rund um Mode und zeige Ihnen die Farben, die Ihnen wirklich stehen."
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body id="top">
+    <!-- Header -->
+    <header>
+      <div class="wrapper">
+        <div class="container">
+          <a href="index.html">
+            <img
+              src="img/logo-stylor.png"
+              width="220"
+              height="65"
+              alt="Stylor Logo"
+              id="logo"
+            />
+          </a>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="#service">Leistungen</a></li>
+              <li><a href="#about">Über mich</a></li>
+              <li><a href="#references">Rezensionen</a></li>
+              <li><a href="#before-after">Vorher/Nachher</a></li>
+              <li><a href="#pricing">Preise</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero-Section -->
+      <section class="hero" id="hero">
+        <div class="wrapper">
+          <img
+            src="img/hero_small.png"
+            srcset="
+              img/hero_small.png   500w,
+              img/hero_medium.png 1000w,
+              img/hero_large.png  1500w
+            "
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            width="750"
+            height="975"
+            alt="Hero Woman"
+          />
+          <div class="text">
+            <h1>Entdecken Sie Ihren <em>einzigartigen</em> Stil!</h1>
+            <p>
+              Professionelle Farb- und Stilberatung für ein strahlendes
+              Selbstbewusstsein
+            </p>
+            <a href="#contact" class="btn link">Jetzt Termin anfragen</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service-Section -->
+      <section class="service" id="service">
+        <div class="wrapper">
+          <h2>Leistungen</h2>
+          <div class="container">
+            <!-- Color -->
+            <div class="item">
+              <img
+                src="img/icon_farbanalyse_medium.png"
+                alt="Icon Farbanalyse"
+                width="180"
+                height="180"
+                class="icon"
+              />
+              <h3>Farbanalyse</h3>
+
+              <div class="accordion">
+                <div class="option">
+                  <input type="checkbox" id="toggle1" class="toggle" />
+                  <label class="title" for="toggle1">Mehr erfahren</label>
+                  <div class="content">
+                    <p>
+                      Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                      Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+                      man Worte wie Hamburgefonts, Rafgenduks oder Handgloves,
+                      um Schriften zu testen. Manchmal Sätze, die alle
+                      Buchstaben des Alphabets enthalten - man nennt diese Sätze
+                      »Pangrams«.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Style -->
+            <div class="item">
+              <img
+                src="img/icon_stilberatung_medium.png"
+                alt="Icon Stilberatung"
+                width="180"
+                height="180"
+                class="icon"
+              />
+              <h3>Stilberatung</h3>
+
+              <div class="accordion">
+                <div class="option">
+                  <input type="checkbox" id="toggle2" class="toggle" />
+                  <label class="title" for="toggle2">Mehr erfahren</label>
+                  <div class="content">
+                    <p>
+                      Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                      Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+                      man Worte wie Hamburgefonts, Rafgenduks oder Handgloves,
+                      um Schriften zu testen. Manchmal Sätze, die alle
+                      Buchstaben des Alphabets enthalten - man nennt diese Sätze
+                      »Pangrams«.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Closed -->
+            <div class="item">
+              <img
+                src="img/icon_schrank_medium.png"
+                alt="Icon Kleiderschrank-Check"
+                width="180"
+                height="180"
+                class="icon"
+              />
+              <h3>Kleiderschrank-Check</h3>
+
+              <div class="accordion">
+                <div class="option">
+                  <input type="checkbox" id="toggle3" class="toggle" />
+                  <label class="title" for="toggle3">Mehr erfahren</label>
+                  <div class="content">
+                    <p>
+                      Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                      Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+                      man Worte wie Hamburgefonts, Rafgenduks oder Handgloves,
+                      um Schriften zu testen. Manchmal Sätze, die alle
+                      Buchstaben des Alphabets enthalten - man nennt diese Sätze
+                      »Pangrams«.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Shopping -->
+            <div class="item">
+              <img
+                src="img/icon_shopping_medium.png"
+                alt="Icon Personal Shopping"
+                width="180"
+                height="180"
+                class="icon"
+              />
+              <h3>Personal Shopping</h3>
+
+              <div class="accordion">
+                <div class="option">
+                  <input type="checkbox" id="toggle4" class="toggle" />
+                  <label class="title" for="toggle4">Mehr erfahren</label>
+                  <div class="content">
+                    <p>
+                      Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                      Buchstaben da sind und wie sie aussehen. Manchmal benutzt
+                      man Worte wie Hamburgefonts, Rafgenduks oder Handgloves,
+                      um Schriften zu testen. Manchmal Sätze, die alle
+                      Buchstaben des Alphabets enthalten - man nennt diese Sätze
+                      »Pangrams«.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About-Section -->
+      <div class="anchor" id="about"></div>
+      <section class="about">
+        <div class="wrapper">
+          <h2>Über mich</h2>
+          <div class="container">
+            <!-- About Images -->
+            <div class="item figure">
+              <img
+                src="img/portrait_anna-wehlers_small.jpg"
+                srcset="
+                  img/portrait_anna-wehlers_small.jpg  500w,
+                  img/portrait_anna-wehlers_medium.jpg 800w
+                "
+                sizes="(min-width: 767px) 50vw, 100vw"
+                alt="Foto von Anna Wehlers"
+                width="400"
+                height="400"
+              />
+              <img
+                srcset="
+                  img/portrait_anna-wehlers_full_small.jpg  500w,
+                  img/portrait_anna-wehlers_full_medium.jpg 800w
+                "
+                sizes="(min-width: 767px) 50vw, 100vw"
+                src="img/portrait_anna-wehlers_full_small.jpg"
+                alt="Foto von Anna Wehlers"
+                width="400"
+                height="400"
+                class="rollover"
+              />
+            </div>
+
+            <!-- About Text -->
+            <div class="item">
+              <div class="text">
+                <p>
+                  Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                  Buchstaben da sind und wie sie aussehen. Manchmal benutzt man
+                  Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um
+                  Schriften zu testen. Manchmal Sätze, die alle Buchstaben des
+                  Alphabets enthalten - man nennt diese Sätze »Pangrams«.
+                </p>
+                <ul>
+                  <li>Überall dieselbe alte Leier</li>
+                  <li>Das Layout ist fertig</li>
+                  <li>Der Text lässt auf sich warten</li>
+                  <li>
+                    Damit das Layout nun nicht nackt im Raume steht und sich
+                    klein und leer vorkommt
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn link">Jetzt Kontakt aufnehmen</a>
+        </div>
+      </section>
+
+      <!-- References-Section -->
+      <section class="references" id="references">
+        <div class="wrapper">
+          <h2>Rezensionen</h2>
+          <div class="container">
+            <!-- Card Ref1 -->
+            <div class="item">
+              <div class="card-header">
+                <img
+                  src="img/icon_benutzer_dark.png"
+                  alt="Icon Benutzer"
+                  width="100"
+                  height="100"
+                />
+                <p>
+                  Benutzername <br />
+                  vor 3 Monaten
+                </p>
+                <img
+                  src="img/icon_google_color.png"
+                  alt="Icon Google"
+                  width="50"
+                  height="50"
+                  class="google"
+                />
+              </div>
+              <div class="stars">
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+              </div>
+              <p>
+                Überall dieselbe alte Leier. Das Layout ist fertig, der Text
+                lässt auf sich warten. Damit das Layout nun nicht nackt im Raume
+                steht.
+              </p>
+            </div>
+
+            <!-- Card Ref2 -->
+            <div class="item">
+              <div class="card-header">
+                <img
+                  src="img/icon_benutzer_dark.png"
+                  alt="Icon Benutzer"
+                  width="100"
+                  height="100"
+                />
+                <p>
+                  Benutzername <br />
+                  vor 3 Monaten
+                </p>
+                <img
+                  src="img/icon_google_color.png"
+                  alt="Icon Google"
+                  width="50"
+                  height="50"
+                  class="google"
+                />
+              </div>
+              <div class="stars">
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink_empty.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+              </div>
+              <p>
+                Überall dieselbe alte Leier. Das Layout ist fertig, der Text
+                lässt auf sich warten. Damit das Layout nun nicht nackt im Raume
+                steht und sich klein und leer vorkommt, springe ich ein: der
+                Blindtext.
+              </p>
+            </div>
+
+            <!-- Card Ref3 -->
+            <div class="item">
+              <div class="card-header">
+                <img
+                  src="img/icon_benutzer_dark.png"
+                  alt="Icon Benutzer"
+                  width="100"
+                  height="100"
+                />
+                <p>
+                  Benutzername <br />
+                  vor 3 Monaten
+                </p>
+                <img
+                  src="img/icon_google_color.png"
+                  alt="Icon Google"
+                  width="50"
+                  height="50"
+                  class="google"
+                />
+              </div>
+              <div class="stars">
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+                <img
+                  src="img/icon_star_pink.png"
+                  alt="Icon Stern"
+                  width="30"
+                  height="30"
+                />
+              </div>
+              <p>
+                Überall dieselbe alte Leier. Das Layout ist fertig, der Text
+                lässt auf sich warten.
+              </p>
+            </div>
+          </div>
+          <p class="link">
+            <a href="#" target="_blank">Weitere Google-Rezensionen ansehen</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Before-After-Section -->
+      <div class="anchor" id="before-after"></div>
+      <section class="before-after">
+        <div class="wrapper">
+          <h2>Vorher / Nachher</h2>
+          <div class="your-class">
+            <div>
+              <img
+                src="img/before-after_woman1_small.jpg"
+                srcset="
+                  img/before-after_woman1_small.jpg   600w,
+                  img/before-after_woman1_medium.jpg 1200w,
+                  img/before-after_woman1_large.jpg  1800w
+                "
+                sizes="(min-width: 1800px) 50vw, 100vw"
+                alt="Vorher Nachher junge Frau"
+                width="800"
+                height="400"
+              />
+              <p></p>
+            </div>
+            <div>
+              <img
+                src="img/before-after_man_small.jpg"
+                srcset="
+                  img/before-after_man_small.jpg   600w,
+                  img/before-after_man_medium.jpg 1200w,
+                  img/before-after_man_large.jpg  1800w
+                "
+                sizes="(min-width: 1800px) 50vw, 100vw"
+                alt="Vorher Nachher Mann"
+                width="800"
+                height="400"
+              />
+              <p></p>
+            </div>
+            <div>
+              <img
+                src="img/before-after_woman2_small.jpg"
+                srcset="
+                  img/before-after_woman2_small.jpg   600w,
+                  img/before-after_woman2_medium.jpg 1200w,
+                  img/before-after_woman2_large.jpg  1800w
+                "
+                sizes="(min-width: 1800px) 50vw, 100vw"
+                alt="Vorher Nachher Frau"
+                width="800"
+                height="400"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing-Section -->
+      <section class="pricing" id="pricing">
+        <div class="wrapper">
+          <h2>Preise</h2>
+          <div class="container">
+            <!-- Card Color & Style -->
+            <div class="item">
+              <div class="text">
+                <h3>Farb- und Stilberatung</h3>
+                <p>
+                  Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                  Buchstaben da sind und wie sie aussehen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>120,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_farbanalyse_small.png"
+                    alt="Icon Farbanalyse klein"
+                    width="50"
+                    height="50"
+                  />
+                  <img
+                    src="img/icon_stilberatung_small.png"
+                    alt="Icon Stilberatung klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Color -->
+            <div class="item">
+              <div class="text">
+                <h3>Farbanalyse inkl. Farbpass</h3>
+                <p>
+                  Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder
+                  Handgloves, um Schriften zu testen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>50,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_farbanalyse_small.png"
+                    alt="Icon Farbanalyse klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Shopping -->
+            <div class="item">
+              <div class="text">
+                <h3>Personal Shopping</h3>
+                <p>
+                  Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                  Buchstaben da sind und wie sie aussehen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>80,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_shopping_small.png"
+                    alt="Icon Personal Shopping klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Style -->
+            <div class="item">
+              <div class="text">
+                <h3>Stilberatung</h3>
+                <p>
+                  Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder
+                  Handgloves, um Schriften zu testen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>90,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_stilberatung_small.png"
+                    alt="Icon Stilberatung klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Style & Closet -->
+            <div class="item">
+              <div class="text">
+                <h3>Stilberatung inkl. Kleiderschrank-Check</h3>
+                <p>
+                  Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle
+                  Buchstaben da sind und wie sie aussehen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>140,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_stilberatung_small.png"
+                    alt="Icon Stilberatung klein"
+                    width="50"
+                    height="50"
+                  />
+                  <img
+                    src="img/icon_schrank_small.png"
+                    alt="Icon Kleiderschrank-Check klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Card All Services -->
+            <div class="item">
+              <div class="text">
+                <h3>Komplettpaket</h3>
+                <p>
+                  Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder
+                  Handgloves, um Schriften zu testen.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p>270,-€</p>
+                <div class="icons">
+                  <img
+                    src="img/icon_farbanalyse_small.png"
+                    alt="Icon Farbanalyse klein"
+                    width="50"
+                    height="50"
+                  />
+                  <img
+                    src="img/icon_stilberatung_small.png"
+                    alt="Icon Stilberatung klein"
+                    width="50"
+                    height="50"
+                  />
+                  <img
+                    src="img/icon_schrank_small.png"
+                    alt="Icon Kleiderschrank-Check klein"
+                    width="50"
+                    height="50"
+                  />
+                  <img
+                    src="img/icon_shopping_small.png"
+                    alt="Icon Personal Shopping klein"
+                    width="50"
+                    height="50"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact-Section -->
+      <div class="anchor" id="contact"></div>
+      <section class="contact">
+        <h2>Kontakt</h2>
+        <div class="wrapper">
+          <!-- Contact Image -->
+          <img
+            src="img/contact_small.png"
+            srcset="
+              img/contact_small.png   500w,
+              img/contact_medium.png 1000w,
+              img/contact_large.png  1500w
+            "
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            width="750"
+            height="991"
+            alt="Contact Woman"
+          />
+
+          <!-- Form -->
+          <form action="#" method="post" class="text">
+            <label for="firstname">Vorname:</label>
+            <div>
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="Vornamen eintragen"
+                required
+              />
+            </div>
+            <label for="lastname">Nachname:</label>
+            <div>
+              <input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Nachnamen eintragen"
+                required
+              />
+            </div>
+            <p>Geschlecht:</p>
+            <div class="radio">
+              <div class="radio-item">
+                <input type="radio" id="male" name="sex" />
+                <label for="male">männlich</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="female" name="sex" />
+                <label for="female">weiblich</label>
+              </div>
+              <div class="radio-item">
+                <input type="radio" id="other" name="sex" />
+                <label for="other">divers</label>
+              </div>
+            </div>
+            <p>Leistungen:</p>
+            <div class="check">
+              <div class="check-item">
+                <input type="checkbox" id="color" name="service" />
+                <label for="color">Farbanalyse</label>
+              </div>
+              <div class="check-item">
+                <input type="checkbox" id="style" name="service" />
+                <label for="style">Stilberatung</label>
+              </div>
+              <div class="check-item">
+                <input type="checkbox" id="shopping" name="service" />
+                <label for="shopping">Personal Shopping</label>
+              </div>
+              <div class="check-item">
+                <input type="checkbox" id="closet" name="service" />
+                <label for="closet">Kleiderschrank-Check</label>
+              </div>
+            </div>
+            <label for="message">Anmerkungen:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Nachricht schreiben"
+            ></textarea>
+            <input type="button" class="btn" value="Absenden" />
+            <a href="data.html" class="data">Datenschutzerklärung</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper">
+        <address class="container">
+          <p>
+            STYLOR<br />
+            Anna Wehlers<br />
+            Kreativweg 1<br />
+            12345 Musterstadt
+          </p>
+          <p>
+            Telefon:
+            <a href="tel:+4918033332222" title="Anruf starten">
+              0180 / 3333 2222
+            </a>
+            <br />
+            Email:
+            <a href="mailto:kontakt@stylor.de" title="Email schreiben">
+              kontakt@stylor.de
+            </a>
+          </p>
+          <div class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+              <img
+                src="img/icon_facebook.png"
+                alt="Icon Facebook"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img
+                src="img/icon_instagram.png"
+                alt="Icon Instagram"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://youtube.com" target="_blank">
+              <img
+                src="img/icon_youtube.png"
+                alt="Icon Youtube"
+                width="50"
+                height="50"
+              />
+            </a>
+          </div>
+        </address>
+        <div class="legal">
+          <p>
+            <a href="legal.html">Impressum</a> |
+            <a href="data.html">Datenschutz</a>
+          </p>
+          <p>Made by Gabi Heuer</p>
+        </div>
+      </div>
+      <a href="#top" id="totop" title="nach oben">↑</a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
