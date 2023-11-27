@@ -8,7 +8,7 @@ Complete responsive design with usage of interactive features like smooth scroll
 
 I chose a simple design to be able to develop it properly.
 
-Check it out here:
+Check it out here: https://yoyo-ka.github.io/Webdesign-Studies-Onepager-STYLOR/
 
 Sources: \
 Images are made by valuavitaly, Racool_studio and luis_molinero on www.freepik.com \
